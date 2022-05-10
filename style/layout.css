@@ -1,0 +1,17 @@
+.headerChanger {
+  margin-top: 20px;
+}
+
+.headerChanger__btn {
+  cursor: pointer;
+  font-size: 16px;
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 8px;
+  transition: 0.5s;
+}
+
+.headerChanger__btn:hover {
+  font-size: 18px;
+}

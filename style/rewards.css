@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap');
+
+.rewards {
+  overflow-x: auto;
+}
+
+.rewards__table {
+  border-collapse: collapse;
+  margin-bottom: 40px;
+  width: 100%;
+}
+
+.rewards__cell {
+  border: 1px solid black;
+  padding: 4px 12px;
+}
+
+.rewards__tableHeader {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.572);
+  padding: 10px 0;
+  color: white;
+  font-family: 'Marcellus SC', serif;
+}

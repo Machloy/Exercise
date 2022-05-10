@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./img/og.jpg" />
+    <script defer src="/script.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+      integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style/main.css" />
+    <link rel="stylesheet" href="./style/navigation.css" />
+    <link rel="stylesheet" href="./style/story.css" />
+    <link rel="stylesheet" href="./style/musicians.css" />
+    <link rel="stylesheet" href="./style/description.css" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="./style/footer.css" />
+    <link rel="stylesheet" href="./style/rewards.css" />
+    <link rel="stylesheet" href="./style/header.css" />
+    <link rel="stylesheet" href="./style/layout.css" />
+    <title>Zadanie moduł 3</title>
+  </head>
+  <body class="body">
+    <div class="wrapper">
+      <nav class="navigation">
+        <a class="navigation__anchor" href="#description">Opis</a>
+        <a class="navigation__anchor" href="#story">Historia</a>
+        <a class="navigation__anchor" href="#musicians">Muzycy</a>
+        <a class="navigation__anchor" href="#style">Styl</a>
+        <a class="navigation__anchor" href="#rewards">Nagrody</a>
+      </nav>
+
+      <div class="headerChanger">
+        <button class="headerChanger__btn">Większy header</button>
+      </div>
+
+      <header class="header">
+        <h1 class="header__main js-header__main">Powerwolf</h1>
+        <img
+          class="header__img"
+          src="https://lastfm.freetls.fastly.net/i/u/ar0/b6997a34bb2042cac345aabfdea477c2.jpg"
+          alt="zdjęcie przedstawiające pięciu członków zespołu Powerwolf stojących na schodach"
+        />
+      </header>
+
+      <section class="description" id="description">
+        <h2 class="description__subHeader section_header">Opis</h2>
+        <p class="description__paragraph">
+          Powerwolf – niemiecki zespół tworzący muzykę powermetalową, powstały w
+          2003 roku w Saarbrücken. Członkowie zespołu posługują się
+          pseudonimami. Charakteryzuje się motywami zaczerpniętymi z wierzeń
+          legend znanych z kultury rumuńskiej – to jest wilkołaków czy wampirów.
+          W swojej twórczości zespół ukazuje także negatywne strony religii
+          chrześcijańskiej, dokonując tego w sposób często ironiczny, czy
+          humorystyczny.
+        </p>
+      </section>
+
+      <section class="story" id="story">
+        <h2 class="section_header">Historia</h2>
+        <p class="story__paragraph">
+          Powerwolf powstał w 2003 roku z inicjatywy byłych członków stoner
+          rockowego zespołu Red Aim. Po założeniu zespołu jego członkowie
+          przybrali pseudonimy sceniczne i wymyślili historie wokół nich. Według
+          oficjalnej wersji podawanej przez zespół, w roku 2003 bracia Charles i
+          Matthew Greywolf postanowiła utworzyć formację muzyczną Powerwolf.
+          Wkrótce do zespołu dołączył keyboardzista Falk Maria Schlegel i
+          francuski perkusista Stéfane Funèbre. Duże trudności stanowiło
+          dobranie odpowiedniego wokalisty; ten natomiast znalazł się
+          przypadkowo. Zespół rozpoczął już działalność, kiedy to podczas
+          wakacji w mieście Sighișoara w Rumunii bracia Greywolf poznali Attilę
+          Dorna: studenta głosu operowego na Królewskiej Akademii Muzycznej w
+          Bukareszcie. Dorn przeprowadził się do Saarbrücken i został liderem
+          zespołu. Jego zamiłowanie do legend dotyczących wilkołaków przypadło
+          do gustu pozostałych członków grupy. Zaowocowało to wydaniem 4
+          kwietnia 2005 roku debiutanckiej płyty Return in Bloodred. W 2007
+          wydali album koncepcyjny Lupus Dei opowiadający o wilku, który z
+          żądnego krwi staje się posłuszny Bogu. 27 kwietnia 2009 roku stał się
+          datą wydania trzeciej płyty tego zespołu, zatytułowanej Bible of the
+          Beast. Jest to zarazem ostatnia płyta w której za perkusją zasiada
+          Stéfane Funèbre.
+        </p>
+      </section>
+
+      <section class="musicians" id="musicians">
+        <h2 class="section_header">Muzycy</h2>
+
+        <ul class="musicians__list">
+          <li>Attila Dorn – śpiew (od 2003)</li>
+          <li>Matthew Greywolf – gitara (od 2003)</li>
+          <li>Charles Greywolf – gitara basowa (od 2003)</li>
+          <li>Falk Maria Schlegel – instrumenty klawiszowe (od 2003)</li>
+          <li>Roel van Helden – perkusja (od 2011)</li>
+        </ul>
+      </section>
+
+      <section class="style" id="style">
+        <h2 class="section_header">Styl</h2>
+        <p class="style__paragraph">
+          Muzyka grana przez zespół była głównie opisywana jako power metal,
+          heavy metal, speed metal, metal symfoniczny i gothic metal. Czasami
+          jest również uznawana za metal progresywny, metal neoklasyczny, doom
+          metal, hard rock, „werewolf metal” i „vampire metal”.
+        </p>
+      </section>
+
+      <section class="rewards" id="rewards">
+        <h2 class="section_header">Nagrody i wyróżnienia</h2>
+        <table class="rewards__table">
+          <tr>
+            <th class="rewards__cell rewards__tableHeader" scope="col">Rok</th>
+            <th class="rewards__cell rewards__tableHeader" scope="col">
+              Kategoria
+            </th>
+            <th class="rewards__cell rewards__tableHeader" scope="col">
+              Nagroda
+            </th>
+            <th class="rewards__cell rewards__tableHeader" scope="col">Nota</th>
+          </tr>
+          <tr>
+            <td class="rewards__cell" scope="row">2010</td>
+            <td class="rewards__cell">Metal Anthem 2010</td>
+            <td class="rewards__cell" rowspan="9">Plebiscyt Metal Hammer</td>
+            <td class="rewards__cell">Nominacja</td>
+          </tr>
+          <tr>
+            <td class="rewards__cell" rowspan="2">2011</td>
+            <td class="rewards__cell" scope="row">Newcomer of the year</td>
+            <td class="rewards__cell">Nagroda</td>
+          </tr>
+          <tr>
+            <td class="rewards__cell" scope="row">
+              Power metal album of the year
+            </td>
+            <td class="rewards__cell">Nagroda</td>
+          </tr>
+          <tr>
+            <td class="rewards__cell" scope="row" rowspan="2">2013</td>
+            <td class="rewards__cell">Best German band</td>
+            <td class="rewards__cell">Nominacja</td>
+          </tr>
+          <tr>
+            <td class="rewards__cell" scope="row">Best Live band</td>
+            <td class="rewards__cell">Nominacja</td>
+          </tr>
+          <tr>
+            <td class="rewards__cell" scope="row" rowspan="2">2014</td>
+            <td class="rewards__cell">Best German band</td>
+            <td class="rewards__cell">Nominacja</td>
+          </tr>
+          <tr>
+            <td class="rewards__cell" scope="row">Best Live band</td>
+            <td class="rewards__cell">Nominacja</td>
+          </tr>
+          <tr>
+            <td class="rewards__cell" scope="row">2015</td>
+            <td class="rewards__cell">Best German band</td>
+            <td class="rewards__cell">Nagroda</td>
+          </tr>
+          <tr>
+            <td class="rewards__cell" scope="row">2016</td>
+            <td class="rewards__cell">Best Live band</td>
+            <td class="rewards__cell">Nominacja</td>
+          </tr>
+        </table>
+      </section>
+
+      <footer class="footer">
+        <p>Strona stworzona przez: Maciej Godlewski</p>
+      </footer>
+    </div>
+  </body>
+</html>
