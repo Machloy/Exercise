@@ -5,8 +5,8 @@
     headerChangerBtn.addEventListener("click", () => {
       headerMain.classList.toggle("header__main--bigger");
       headerMain.classList.contains("header__main--bigger")
-        ? (headerChangerBtn.innerText = "Mniejszy header")
-        : (headerChangerBtn.innerText = "Większy header");
+        ? (headerChangerBtn.innerText = "Mniejszy nagłówek")
+        : (headerChangerBtn.innerText = "Większy nagłówek");
     });
   };
   biggerHeader();

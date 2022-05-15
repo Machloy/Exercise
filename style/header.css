@@ -5,16 +5,17 @@
 }
 
 .header__main {
-  font-size: 60px;
+  font-size: 50px;
   text-align: center;
   transition: 0.6s;
 }
 
 .header__img {
   width: 80%;
+  height: auto;
   border-radius: 10px;
 }
 
 .header__main--bigger {
-  font-size: 74px;
+  font-size: 68px;
 }
