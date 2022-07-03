@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap");
 
 .rewards {
   overflow-x: auto;
@@ -13,6 +13,7 @@
 .rewards__cell {
   border: 1px solid rgb(0, 0, 0);
   padding: 4px 12px;
+  font-weight: normal;
 }
 
 .rewards__tableHeader {
@@ -20,5 +21,5 @@
   background-color: rgba(0, 0, 0, 0.572);
   padding: 10px 0;
   color: white;
-  font-family: 'Marcellus SC', serif;
+  font-family: "Marcellus SC", serif;
 }
